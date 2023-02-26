@@ -2,7 +2,7 @@ import { server as createServer } from "@hapi/hapi";
 import { routes } from "./routes.js";
 
 const server = createServer({
-  port: 5000,
+  port: 9000,
   host: "localhost",
   routes: {
     cors: {
